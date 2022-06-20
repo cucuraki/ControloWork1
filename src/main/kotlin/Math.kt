@@ -2,7 +2,7 @@ class Math {
     // greatest common divisior
     fun gcd(n1: Int, n2: Int): Int{
         if(n1 == 0 || n2 == 0)
-            return 1
+            return -1
         var num1: Int
         var num2: Int
         if(n1 > n2){
