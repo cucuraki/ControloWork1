@@ -34,7 +34,7 @@ class Math {
         return s.contains("$")
     }
 
-    fun zeroToHundredSum(n: Int = 100): Int = if(n==2) 2 else zeroToHundredSum(n-2) + n
+    fun zeroToHundredSum(n: Int = 98): Int = if(n==2) 2 else zeroToHundredSum(n-2) + n
 
     fun reverseInt(n: Int): Int{
         return  n.toString().reversed().toInt()
